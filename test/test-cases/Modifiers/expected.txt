@@ -1,0 +1,24 @@
+export abstract class TestClass {
+
+  public static staticField: string;
+  public readonly readOnlyField: string;
+  public readWriteField: string;
+
+  public static readonly staticProperty: string;
+  public readonly readOnlyProperty: string;
+  public readWriteProperty: string;
+  public abstract abstractProperty: string;
+
+  readonly \[i: string\]: any;
+  \[i: number\]: any;
+
+
+export interface ITestInterface {
+
+  readonly readOnlyProperty: string;
+  readWriteProperty: string;
+
+  method\(\): string;
+
+
+!export abstract class InternalClass {

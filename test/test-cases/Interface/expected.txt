@@ -1,0 +1,7 @@
+export interface ITestInterface {
+  readonly readOnlyProperty: string;
+  readWriteProperty: string;
+  readonly \[i: string\]: any; 
+  \[i: number\]: any; 
+  voidMethod\(\): void;
+  parametrizedMethod\(arg1: number, arg2: string, arg3: any\): string;

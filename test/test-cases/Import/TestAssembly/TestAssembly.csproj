@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <RootNamespace>TestSolution.TestAssembly</RootNamespace>
+    <AssemblyName>TestSolution.TestAssembly</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReferencedAssembly\ReferencedAssembly.csproj" />
+  </ItemGroup>
+</Project>

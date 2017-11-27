@@ -1,0 +1,5 @@
+export interface ITestInterface {
+  delegate: any;
+
+export class TestClass {
+  public delegate: any;

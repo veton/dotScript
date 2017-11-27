@@ -1,0 +1,3 @@
+export class GenericClass<T1> extends GenericBaseClass<string, IGenericInterface<T1>> implements IGenericInterface<T1> {
+  public property1: GenericBaseClass<string, IGenericInterface<T1>>;
+  public property2: IGenericInterface<T1>;

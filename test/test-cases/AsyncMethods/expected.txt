@@ -1,0 +1,3 @@
+voidMethodAsync\(\): Observable<any>;
+methodAsync\(\): Observable<string>;
+  methodWithAsyncParams\(param1: Observable<string>\): void;

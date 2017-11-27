@@ -1,0 +1,3 @@
+export class OtherClass {
+!class ExcludedClass
+!class ClassInExcludedNamespace

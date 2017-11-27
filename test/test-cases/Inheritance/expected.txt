@@ -1,0 +1,2 @@
+export class InheritedTestClass extends BaseClass implements IInterface, IExtendedInterface
+!public .*: .*;

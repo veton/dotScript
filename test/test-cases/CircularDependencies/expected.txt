@@ -1,0 +1,4 @@
+export class Class1
+export class Class2
+public reference: Class1;
+public reference: Class2;

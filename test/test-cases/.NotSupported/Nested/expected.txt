@@ -1,0 +1,6 @@
+export class Class1 {
+public readonly property1: string;
+export class Class2 {
+public readonly property2: string;
+export class Class3 {
+public readonly property3: string;

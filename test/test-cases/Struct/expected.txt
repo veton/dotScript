@@ -1,0 +1,2 @@
+export class TestStruct {
+  public child: number;

@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: veton/dotscript
+    steps:
+      - checkout
+      - run:
+          name: Run Tests
+          command: pwsh ./test/run.ps1 Import
+      - run:
+          name: Publish to NPM
+          command: pwsh -Command "Write-Host Not Implemented"
+      - run:
+          name: Publish to NuGet
+          command: pwsh -Command "Write-Host Not Implemented"

@@ -47,7 +47,7 @@ Get-ChildItem "$PSScriptRoot\modules\*.psm1" -Recurse | Import-Module -Global
 Write-Host "Converting Assembly '$AssemblyPath' to Script '$ScriptPath'..." -Foreground "Blue"
 
 try {
-    $assembly = [System.Reflection.Assembly]::LoadFrom($AssemblyPath)
+    $assembly = Import-Assembly $AssemblyPath
     $global:Context = @{
         "AssemblyName"    = $assembly.GetName().Name;
         "KnownAssemblies" = $KnownAssemblies;

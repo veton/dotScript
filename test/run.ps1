@@ -3,7 +3,7 @@ $global:CommonDir = "$PsScriptRoot\common"
 $global:SandboxDir = "$PsScriptRoot\sandbox"
 $global:Platforms = @(
     "netstandard2.0"
-    "net47"
+    #"net47"
 )
 
 $ErrorActionPreference = "Stop"

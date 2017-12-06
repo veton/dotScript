@@ -3,7 +3,7 @@ Invoke-Shell tsc $global:TargetScript --noEmit --moduleResolution Classic
 
 Write-Host "Verifying expected fragments..." -Foreground "DarkGray"
 $generatedFile = Get-Content $global:TargetScript -Raw
-Get-Content "$PsScriptRoot\expected.txt" | % {
+Get-Content "$PsScriptRoot\expected.txt" | ForEach-Object {
     if ($_.StartsWith('!')) {
         $regex = $_.Substring(1)
         if ($generatedFile -Match $regex) {
@@ -14,6 +14,5 @@ Get-Content "$PsScriptRoot\expected.txt" | % {
         if ($generatedFile -NotMatch $_) {
             throw "Expected fragment missing: $_"
         }
-
     }
 }

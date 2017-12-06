@@ -3,5 +3,5 @@ function Invoke-Shell($command) {
 
     Write-Host "$command $args" -Foreground "DarkBlue"
     & $command $args
-    if ($LastExitCode) { throw "Command failed with code $LastExitCode" }
+    if ($global:LastExitCode) { throw "Command failed with code $global:LastExitCode" }
 }

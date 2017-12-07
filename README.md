@@ -1,4 +1,8 @@
 # dotScript
 
-[![Join the chat at https://gitter.im/dot-script/Lobby](https://badges.gitter.im/dot-script/Lobby.svg)](https://gitter.im/dot-script/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![CircleCI](https://img.shields.io/circleci/project/github/veton/dotScript.svg)](https://circleci.com/gh/veton/dotScript)
+[![NuGet](https://img.shields.io/nuget/v/dotScript.svg)](https://www.nuget.org/packages/dotScript)
+[![npm](https://img.shields.io/npm/v/dotscript.svg)](https://www.npmjs.com/package/dotscript)
+[![Gitter](https://img.shields.io/gitter/room/dot-script/Lobby.svg)](https://gitter.im/dot-script/Lobby)
+
 Generates TypeScript model from .NET assemblies

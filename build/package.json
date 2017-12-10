@@ -1,0 +1,23 @@
+{
+  "name": "dotscript",
+  "version": "1.0.0",
+  "description": "Generates TypeScript model from .NET assemblies",
+  "author": "veton",
+  "license": "Apache-2.0",
+  "main": "index.ps1",
+  "keywords": [
+    "dotnet",
+    ".NET",
+    "TypeScript",
+    "Core",
+    "PowerShell"
+  ],
+  "homepage": "https://github.com/veton/dotScript#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veton/dotScript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veton/dotScript/issues"
+  }
+}

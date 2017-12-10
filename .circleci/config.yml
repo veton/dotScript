@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
           name: Run Tests
-          command: pwsh ./test/run.ps1 Import
+          command: pwsh ./test/run.ps1
       - run:
           name: Publish to NPM
-          command: pwsh -Command "Write-Host Not Implemented"
+          command: pwsh ./build/publish-npm.ps1
       - run:
           name: Publish to NuGet
-          command: pwsh -Command "Write-Host Not Implemented"
+          command: pwsh ./build/publish-nuget.ps1

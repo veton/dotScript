@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>dotScript</id>
+    <version>1.0.0</version>
+    <authors>veton</authors>
+    <owners>veton</owners>
+    <licenseUrl>https://github.com/veton/dotScript/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/veton/dotScript</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Generates TypeScript model from .NET assemblies</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>dotnet .NET Core TypeScript PowerShell</tags>
+  </metadata>
+  
+  <files>
+    <file src="**/*.*" target="tools" />
+  </files>
+</package>
